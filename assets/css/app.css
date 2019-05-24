@@ -1,4 +1,8 @@
+/* Fonts */
+@import url('//fonts.googleapis.com/css?family=Roboto&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto', 'Arial';
 }
