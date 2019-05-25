@@ -21,10 +21,15 @@ img {
 
 /* Components */
 .logo {
+    display: block;
     width: 230px;
     height: 65px;
     background-image: url('./../img/logo.png');
     background-size: cover;
+}
+
+.logo-footer {
+    background-image: url('./../img/logo_footer.png');
 }
 
 .btn {
@@ -68,13 +73,13 @@ img {
     flex-flow: column;
 }
 
-.contacts__btn {
+.contacts__email {
     width: 160px;
     padding: 5px;
     font-size: 14px;
 }
 
-.contacts__btn i {
+.contacts__email i {
     margin: 3px;
 }
 
@@ -243,7 +248,6 @@ hr {
 }
 
 .footer {
-    height: 150px;
     padding: 35px 0px;
     background: #1c1c1c;
 }
@@ -258,22 +262,38 @@ hr {
     width: 770px;
 }
 
-.logo_footer {
-    display: block;
-    width: 230px;
-    height: 65px;
-    background-image: url('./../img/logo_footer.png');
-    background-size: cover;
+.footer__leftBlock .leftBlock__text {
+    margin-top: 25px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #777;
 }
 
-.footer__contacts {
-
+.footer__rightBlock .contacts {
+    align-items: flex-start;
 }
 
-.footer__contacts .text-bg {
+.footer__rightBlock .contacts__number {
     color: #fff;
 }
 
-.footer__contacts a:hover {
+.footer__rightBlock .contacts__email {
+    margin: 10px 0px;
+}
+
+.footer__rightBlock .contacts__email a:hover {
     color: #54b00a;
+}
+
+.privacy .privacy__text {
+    color: #777;
+    font-size: 14px;
+}
+
+.privacy .link {
+    color: #54b00a;
+}
+
+.privacy .link:hover {
+    color: #fff;
 }
