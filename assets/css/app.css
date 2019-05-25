@@ -3,6 +3,7 @@
 
 /* Fonts */
 @import url('//fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('//fonts.googleapis.com/css?family=Righteous&display=swap');
 
 * {
     margin: 0px;
@@ -35,6 +36,14 @@ body {
 
 .text-bg {
     font-size: 24px;
+}
+
+.text-11 {
+    font-size: 11px;
+}
+
+.text-30 {
+    font-size: 30px;
 }
 
 .bg-black {
@@ -146,4 +155,95 @@ body {
     height: 25px;
     padding: 5px;
     font-size: 16px;
+}
+
+.content {
+    margin: 0px 45px;
+}
+
+.slider {
+    width: 100%;
+    height: 356px;
+    background: url('./../img/slider/slide1.jpg');
+    background-size: cover;
+}
+
+.posts {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 35px 0px;
+}
+
+.post .imageCaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+}
+
+.post .imageCaption:hover {
+    background: #54b00a;
+}
+
+.post .imageCaption .text-30 {
+    margin: 5px;
+    font-family: 'Righteous';
+}
+
+.post .imageCaption .text-30:first-child {
+    color: #54b00a;
+}
+
+.post .imageCaption:hover .text-30:first-child {
+    color: #000;
+}
+
+.post__caption {
+    margin: 15px 0px;
+}
+
+.post__caption .text-30 {
+    font-weight: bold;
+}
+
+.footer {
+    height: 150px;
+    padding: 35px 0px;
+    background: #1c1c1c;
+}
+
+.footer__content {
+    display: flex;
+    height: 100%;
+    margin: 0px 30px;
+}
+
+.footer__leftBlock {
+    width: 770px;
+}
+
+.logo_footer {
+    display: block;
+    width: 230px;
+    height: 65px;
+    background-image: url('./../img/logo_footer.png');
+    background-size: cover;
+}
+
+.footer__contacts {
+
+}
+
+.footer__contacts .text-bg {
+    color: #fff;
+}
+
+.footer__contacts a:hover {
+    color: #54b00a;
 }
