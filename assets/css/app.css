@@ -1,6 +1,9 @@
 /* Font Awesome v5.8.2 */
 @import url('//use.fontawesome.com/releases/v5.8.2/css/all.css');
 
+/* Custom Grid CSS */
+@import './grid.css';
+
 /* Fonts */
 @import url('//fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('//fonts.googleapis.com/css?family=Righteous&display=swap');
@@ -64,7 +67,6 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 45px;
 }
 
 .contacts {
@@ -102,7 +104,6 @@ img {
 .header__menu .bg-black {
     display: flex;
     justify-content: space-between;
-    margin: 0px 45px;
 }
 
 .menu {
@@ -140,10 +141,6 @@ img {
     height: 25px;
     padding: 5px;
     font-size: 16px;
-}
-
-.content {
-    margin: 0px 45px;
 }
 
 .slider__item {
@@ -252,7 +249,6 @@ hr {
     display: flex;
     justify-content: space-evenly;
     height: 100%;
-    margin: 0px 30px;
 }
 
 .footer__leftBlock {
