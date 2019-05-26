@@ -290,3 +290,27 @@ hr {
 .privacy .link:hover {
     color: #fff;
 }
+
+@media (max-width: 1200px) {
+    .menu {
+        width: 100%;
+    }
+
+    .menu__item {
+        width: 100%;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .posts {
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .post {
+        width: 420px;
+        margin: 10px 0px;
+    }
+}
